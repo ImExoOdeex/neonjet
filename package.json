@@ -1,0 +1,31 @@
+{
+    "name": "neonjet",
+    "displayName": "Neon jet",
+    "description": "Neon jet is simple theme for visual studio code. It is created from heart for your comfort.",
+    "version": "1.1.0",
+    "publisher": "imexoodeex",
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "keywords": [
+        "Neon jet",
+        "Neon",
+        "jet",
+        "Neon theme",
+        "Jet theme",
+        "Neon jet theme"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "imexoodeex",
+                "uiTheme": "vs-dark",
+                "path": "./themes/imexoodeex-color-theme.json"
+            }
+        ]
+    }
+}
